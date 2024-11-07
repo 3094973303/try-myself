@@ -31,7 +31,7 @@
             text-align: center;
         }
         .content img {
-            max-width: 100%;
+            max-width: 90%;
             height: auto;
         }
         footer {
@@ -52,10 +52,10 @@
 </header>
 
 <nav>
-    <a href="https://www.pinduoduo.com">首页</a>
-    <a href="https://world.taobao.com">菜单</a>
-    <a href="#">联系小林</a>
-    <a href="#">点这里帮我砍一刀</a>
+    <a href="https://www.ctrip.com/">首页</a>
+    <a href="https://www.kfchk.com/index.html">菜单</a>
+    <a href="https://zh.wikipedia.org/wiki/%E5%9F%83%E9%9A%86%C2%B7%E9%A9%AC%E6%96%AF%E5%85%8B">联系小林</a>
+    <a href="https://www.pinduoduo.com">点这里帮我砍一刀</a>
 </nav>
 
 <div class="content">
@@ -65,8 +65,19 @@
     <p>我只是试一下这个怎么玩哈哈哈</p>
     <p>恭喜你啊,现在给我v50</p>
      <p>帅到被人砍</p>
-    <a href="https://www.pinduoduo.com/">今晚八点我在沙城等你</a>
+    <a href="https://www.bilibili.com/video/BV1csYMevE31/">今晚八点我在沙城等你</a>
+    <button id = "dzs" onclick= "dianzan()">0</button> 
+    <script> 
+        function dianZan(){
+        let dianZanShuBiaoQian = window.document.getElementById("dzs"); 
+        let dianZanShu = parseInt(dianZanShuBiaoQian.innerText); 
+        let xinShuZi = dianZanShu +1;
+        dianZanShuBiaoQian.innerText = xinShuzi; 
+        return 
+    }    
+    </script>
 </div>
+
 
 <footer>
     <p>© 2024 LINLIXIN SHI SHUAI BI</p>
